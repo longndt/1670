@@ -1,0 +1,19 @@
+﻿.in_dam {
+    font-weight: bold;
+}
+
+.in_nghieng {
+    font-style: italic;
+}
+
+.gach_chan {
+    text-decoration: underline;
+}
+
+.mau_do {
+    color: red;
+}
+
+.mau_xanh {
+    color: blue;
+}
