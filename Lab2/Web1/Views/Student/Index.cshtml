@@ -1,0 +1,22 @@
+﻿@model List<Web1.Models.Student> 
+
+<table class="table table-primary">
+    <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+    </tr>
+    @{
+        int index = 1;
+    }
+    @foreach (var student in Model) {
+        <tr>
+            <td>@index</td>
+            <td>@student.Name</td>
+            <td>@student.Age</td>
+            <td>@student.Email</td>
+        </tr>
+        index++;
+    }
+</table>
