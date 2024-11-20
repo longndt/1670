@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tut3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21e3e24a3fe0c4059a1e4700e9beeed6f1fd3cd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa85ee9959a4b197c5b4851082fb3f7f50364164")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tut3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tut3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

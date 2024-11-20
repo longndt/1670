@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\tut3\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|solutionrelative:views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\tut3\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|solutionrelative:controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\tut3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\tut3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\tut3\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Tut3.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 425,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +39,75 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Views\\Laptops\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Laptops\\Index.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Views\\Laptops\\Index.cshtml",
+              "RelativeToolTip": "Views\\Laptops\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T10:30:47.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:27:23.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:27:12.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvyoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:25:59.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LaptopsController.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Controllers\\LaptopsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LaptopsController.cs",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Controllers\\LaptopsController.cs",
+              "RelativeToolTip": "Controllers\\LaptopsController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:25:35.894Z",
+              "EditorCaption": ""
             }
           ]
         }

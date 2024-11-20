@@ -69,3 +69,12 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.my_error {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: red;
+  background-color: yellow;
+}

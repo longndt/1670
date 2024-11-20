@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace Tut3.Controllers
         }
 
         // GET: Laptops
+        [Authorize(Roles = "Administrator, User")]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Laptop.Include(l => l.Brand);
@@ -46,6 +48,7 @@ namespace Tut3.Controllers
         }
 
         // GET: Laptops/Create
+        [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
             ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name");
@@ -57,6 +60,7 @@ namespace Tut3.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Create([Bind("Id,Model,Color,Quantity,Price,Image,BrandId")] Laptop laptop)
         {
             if (ModelState.IsValid)

@@ -44,6 +44,22 @@ namespace Tut3.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "admin-role",
+                            ConcurrencyStamp = "766407d2-ae08-43d6-88ae-b999b852b344",
+                            Name = "Administrator",
+                            NormalizedName = "ADMINISTRATOR"
+                        },
+                        new
+                        {
+                            Id = "user-role",
+                            ConcurrencyStamp = "46158f52-2612-47c5-80e8-f593e6f32395",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -133,6 +149,40 @@ namespace Tut3.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "admin-account",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "17763e38-694d-40ee-b86e-73e9b8085ff8",
+                            Email = "admin@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOXCYXyQFFMaFMQLgMdblJemY6i2iCgnbnLgXPxC0UlZ4jTsRATpKkv6Ryg6QTZ/OA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "716db2db-fdbf-406c-ba8e-ea4ca3583f37",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@gmail.com"
+                        },
+                        new
+                        {
+                            Id = "user-account",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "b070a3a5-c301-4e08-a542-52ccac95e899",
+                            Email = "user@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "USER@GMAIL.COM",
+                            NormalizedUserName = "USER@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIZ2CXExLi1raj4nZRnv7pRYwjfolESto50GJCCXCMnBaTNZ8eP7+Keu0DuK1AKxxA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "7f06cf9f-7d62-4eb5-939a-ca08d96fb83c",
+                            TwoFactorEnabled = false,
+                            UserName = "user@gmail.com"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -196,6 +246,18 @@ namespace Tut3.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "admin-account",
+                            RoleId = "admin-role"
+                        },
+                        new
+                        {
+                            UserId = "user-account",
+                            RoleId = "user-role"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -251,7 +313,8 @@ namespace Tut3.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Model")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(20)")
+                        .HasMaxLength(20);
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
