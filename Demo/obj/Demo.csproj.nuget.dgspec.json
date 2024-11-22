@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Demo.csproj": {}
+    "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Demo.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Demo.csproj": {
+    "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Demo.csproj",
+        "projectUniqueName": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\Demo.csproj",
+        "projectPath": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\longn\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Tut3\\obj\\",
+        "outputPath": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

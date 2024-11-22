@@ -21,8 +21,13 @@ namespace Tut3.Controllers
         }
 
         // GET: Laptops
-        [Authorize(Roles = "Administrator, User")]
         public async Task<IActionResult> Index()
+        {
+            var applicationDbContext = _context.Laptop.Include(l => l.Brand);
+            return View(await applicationDbContext.ToListAsync());
+        }
+
+        public async Task<IActionResult> List()
         {
             var applicationDbContext = _context.Laptop.Include(l => l.Brand);
             return View(await applicationDbContext.ToListAsync());
