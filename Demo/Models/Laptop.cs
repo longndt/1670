@@ -17,7 +17,8 @@ namespace Demo.Models
         public int Quantity { get; set; }
         [Required (ErrorMessage = "Giá tiền không được để trống")]
         public double Price { get; set; }
-        [Url(ErrorMessage = "Link ảnh không hợp lệ")]
+        
+        //[Url(ErrorMessage = "Link ảnh không hợp lệ")]
         public string Image { get; set; }
 
         public int BrandId { get; set; }  //foreign key

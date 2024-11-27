@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Demo.Data;
 using Demo.Models;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 
 namespace Demo.Controllers
 {
@@ -66,10 +68,27 @@ namespace Demo.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Administrator")]
-        public async Task<IActionResult> Create([Bind("Id,Model,Color,Quantity,Price,Image,BrandId")] Laptop laptop)
+        public async Task<IActionResult> Create([Bind("Id,Model,Color,Quantity,Price,Image,BrandId")] Laptop laptop, IFormFile Image)
         {
             if (ModelState.IsValid)
             {
+                //validate image is valid or not
+                if (Image != null && Image.Length > 0)
+                {
+                    //set image file name => ensure file name is unique
+                    var fileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(Image.FileName);
+                    //set image file location
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        //copy (upload) image file from orignal location to project folder
+                        Image.CopyTo(stream);
+                    }
+
+                    //set image file name for book cover
+                    laptop.Image = "/images/" + fileName;
+                }
                 _context.Add(laptop);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

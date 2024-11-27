@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\demo\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\demo\\views\\laptops\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:views\\laptops\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 167,
+          "DockedHeight": 275,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -30,34 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Views\\Laptops\\List.cshtml",
-              "RelativeDocumentMoniker": "Views\\Laptops\\List.cshtml",
-              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Views\\Laptops\\List.cshtml",
-              "RelativeToolTip": "Views\\Laptops\\List.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBAAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T07:17:56.178Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 233,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LaptopsController.cs",
               "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Controllers\\LaptopsController.cs",
               "RelativeDocumentMoniker": "Controllers\\LaptopsController.cs",
               "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Controllers\\LaptopsController.cs",
               "RelativeToolTip": "Controllers\\LaptopsController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAuwLcAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswEYAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T07:17:52.77Z",
+              "WhenOpened": "2024-11-27T08:18:13.941Z",
               "EditorCaption": ""
             }
           ]
