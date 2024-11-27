@@ -165,5 +165,24 @@ namespace Demo.Controllers
         {
             return _context.Laptop.Any(e => e.Id == id);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Search(string model)
+        {
+            var laptops = _context.Laptop.Include(l => l.Brand).Where(lap => lap.Model.Contains(model));
+            return View("List", await laptops.ToListAsync());
+        }
+
+        public async Task<IActionResult> SortPriceAsc ()
+        {
+            var laptops = _context.Laptop.Include(l => l.Brand).OrderBy(lap => lap.Price);
+            return View("List", await laptops.ToListAsync());
+        }
+
+        public async Task<IActionResult> SortPriceDesc ()
+        {
+            var laptops = _context.Laptop.Include(l => l.Brand).OrderByDescending(lap => lap.Price);
+            return View("List", await laptops.ToListAsync());
+        }
     }
 }
