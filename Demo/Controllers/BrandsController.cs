@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Tut3.Data;
-using Tut3.Models;
+using Demo.Data;
+using Demo.Models;
 
-namespace Tut3.Controllers
+namespace Demo.Controllers
 {
     public class BrandsController : Controller
     {

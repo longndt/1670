@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Tut3.Data;
-using Tut3.Models;
+using Demo.Data;
+using Demo.Models;
 
-namespace Tut3.Controllers
+namespace Demo.Controllers
 {
     public class LaptopsController : Controller
     {
@@ -23,14 +23,14 @@ namespace Tut3.Controllers
         // GET: Laptops
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Laptop.Include(l => l.Brand);
-            return View(await applicationDbContext.ToListAsync());
+            var laptops = _context.Laptop.Include(l => l.Brand);
+            return View(await laptops.ToListAsync());
         }
 
         public async Task<IActionResult> List()
         {
-            var applicationDbContext = _context.Laptop.Include(l => l.Brand);
-            return View(await applicationDbContext.ToListAsync());
+            var laptops = _context.Laptop.Include(l => l.Brand);
+            return View(await laptops.ToListAsync());
         }
 
         // GET: Laptops/Details/5

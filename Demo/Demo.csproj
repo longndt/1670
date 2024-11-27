@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-Tut3-2d464d38-ae53-4d8b-99d2-61795704935e</UserSecretsId>
+    <UserSecretsId>aspnet-Demo-2d464d38-ae53-4d8b-99d2-61795704935e</UserSecretsId>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 

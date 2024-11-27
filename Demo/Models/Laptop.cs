@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Net.NetworkInformation;
 
-namespace Tut3.Models
+namespace Demo.Models
 {
     //Many Laptop - 1 Brand
     public class Laptop

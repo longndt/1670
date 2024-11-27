@@ -20,20 +20,20 @@ using Microsoft.AspNetCore.Identity
     ;
 #nullable restore
 #line 2 "D:\workspace\FGW-1670\1670-re2-fa24\Demo\Areas\Identity\Pages\_ViewImports.cshtml"
-using Tut3.Areas.Identity
+using Demo.Areas.Identity
 
 #nullable disable
     ;
 #nullable restore
 #line 3 "D:\workspace\FGW-1670\1670-re2-fa24\Demo\Areas\Identity\Pages\_ViewImports.cshtml"
-using Tut3.Areas.Identity.Pages
+using Demo.Areas.Identity.Pages
 
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"e0360018d3b45cc43c127fa3b4faba58908b18428c4b64f6147a7717016dedea", @"/Areas/Identity/Pages/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"65eb3e4fe5e1771b46381bf1f391d7d9d8589cba8efaee81a9065a5be6f48699", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"850f490d83ce75f4ae188237f957f0752d2386a84714341c90c033095278dcde", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Areas_Identity_Pages_Error : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     #nullable disable

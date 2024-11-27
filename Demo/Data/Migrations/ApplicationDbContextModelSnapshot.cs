@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Tut3.Data;
+using Demo.Data;
 
-namespace Tut3.Data.Migrations
+namespace Demo.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -281,7 +281,7 @@ namespace Tut3.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Tut3.Models.Brand", b =>
+            modelBuilder.Entity("Demo.Models.Brand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -348,7 +348,7 @@ namespace Tut3.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Tut3.Models.Laptop", b =>
+            modelBuilder.Entity("Demo.Models.Laptop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -634,9 +634,9 @@ namespace Tut3.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Tut3.Models.Laptop", b =>
+            modelBuilder.Entity("Demo.Models.Laptop", b =>
                 {
-                    b.HasOne("Tut3.Models.Brand", "Brand")
+                    b.HasOne("Demo.Models.Brand", "Brand")
                         .WithMany("Laptops")
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Cascade)

@@ -4,9 +4,9 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Tut3.Models;
+using Demo.Models;
 
-namespace Tut3.Data
+namespace Demo.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -14,8 +14,8 @@ namespace Tut3.Data
             : base(options)
         {
         }
-        public DbSet<Tut3.Models.Brand> Brand { get; set; }
-        public DbSet<Tut3.Models.Laptop> Laptop { get; set; }
+        public DbSet<Demo.Models.Brand> Brand { get; set; }
+        public DbSet<Demo.Models.Laptop> Laptop { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

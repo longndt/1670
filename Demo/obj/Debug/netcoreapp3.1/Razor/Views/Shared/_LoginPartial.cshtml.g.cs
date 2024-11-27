@@ -14,13 +14,13 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "D:\workspace\FGW-1670\1670-re2-fa24\Demo\Views\_ViewImports.cshtml"
-using Tut3
+using Demo
 
 #nullable disable
     ;
 #nullable restore
 #line 2 "D:\workspace\FGW-1670\1670-re2-fa24\Demo\Views\_ViewImports.cshtml"
-using Tut3.Models
+using Demo.Models
 
 #nullable disable
     ;
@@ -33,7 +33,7 @@ using Tut3.Models
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"daeb91243848a5dbde45491cd8de58676401a35e0a13aa5b6204aab70f8deae0", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d25f2263d8f16c67a886e467329826478962faf5d7cfbcc378003de67c98dd43", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"8700511b3c3dbec7cfe891098073c85db464dcba3f7a81a0aee725929ed53c12", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

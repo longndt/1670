@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Tut3.Models
+namespace Demo.Models
 {
     //1 Brand - Many Laptop
     public class Brand

@@ -14,20 +14,20 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "D:\workspace\FGW-1670\1670-re2-fa24\Demo\Views\_ViewImports.cshtml"
-using Tut3
+using Demo
 
 #nullable disable
     ;
 #nullable restore
 #line 2 "D:\workspace\FGW-1670\1670-re2-fa24\Demo\Views\_ViewImports.cshtml"
-using Tut3.Models
+using Demo.Models
 
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba11", @"/Views/Shared/_ValidationScriptsPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d25f2263d8f16c67a886e467329826478962faf5d7cfbcc378003de67c98dd43", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"8700511b3c3dbec7cfe891098073c85db464dcba3f7a81a0aee725929ed53c12", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Shared__ValidationScriptsPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

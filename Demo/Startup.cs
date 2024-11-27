@@ -11,9 +11,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Tut3.Data;
+using Demo.Data;
 
-namespace Tut3
+namespace Demo
 {
     public class Startup
     {
