@@ -1,0 +1,42 @@
+﻿@model List<Demo.Models.UserViewModel>
+
+@if (TempData["Message"] != null) {
+   <span class="alert alert-success">@TempData["Message"]</span>
+}
+
+@if (TempData["Error"] != null)
+{
+    <span class="alert alert-danger">@TempData["Error"]</span>
+}
+
+<h1 class="text text-primary mt-3 mb-3">User List</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Menu</th>
+        </tr>
+    </thead>
+    @{
+        var counter = 1;
+    }
+    <tbody>
+        @foreach (var user in Model) {
+        <tr>
+            <td>@counter</td>
+            <td>@user.Id</td>
+            <td>@user.Username</td>
+            <td>@user.Email</td>
+            <td>@string.Join(", ", user.Roles)</td>
+            <td>
+                <a class="btn btn-warning" asp-controller="Admin" asp-action="ResetPass" asp-route-id="@user.Id">Reset Pass</a>
+            </td>
+        </tr>
+        counter++;
+        }
+    </tbody>
+</table>

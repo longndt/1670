@@ -1,28 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\",
+  "WorkspaceRootPath": "D:\\workspace\\FGW-1670\\1670\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\demo\\views\\laptops\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:views\\laptops\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670\\demo\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\demo\\views\\laptops\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:views\\laptops\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670-re2-fa24\\demo\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670\\demo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|d:\\workspace\\fgw-1670\\1670\\demo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC56387F-9B24-4996-8B34-2D7C83A6FC8B}|Demo.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 275,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 691,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,44 +35,63 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 691,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670\\Demo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670\\Demo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAADwv2sAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:24:55.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Views\\Laptops\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Laptops\\Edit.cshtml",
-              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Views\\Laptops\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Laptops\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T08:36:06.849Z",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670\\Demo\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670\\Demo\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:21:47.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Views\\Laptops\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Laptops\\Create.cshtml",
-              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Views\\Laptops\\Create.cshtml",
-              "RelativeToolTip": "Views\\Laptops\\Create.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAABFAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvxAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T08:35:12.454Z",
+              "WhenOpened": "2024-12-06T07:20:54.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LaptopsController.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Controllers\\LaptopsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LaptopsController.cs",
-              "ToolTip": "D:\\workspace\\FGW-1670\\1670-re2-fa24\\Demo\\Controllers\\LaptopsController.cs",
-              "RelativeToolTip": "Controllers\\LaptopsController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAswFAAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T08:18:13.941Z",
+              "DocumentIndex": 0,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-1670\\1670\\Demo\\Views\\Admin\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UserList.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-1670\\1670\\Demo\\Views\\Admin\\UserList.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UserList.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:06:39.342Z",
               "EditorCaption": ""
             }
           ]
